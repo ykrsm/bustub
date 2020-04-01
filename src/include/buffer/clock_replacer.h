@@ -46,7 +46,8 @@ class ClockReplacer : public Replacer {
   size_t Size() override;
 
  private:
-  // TODO(student): implement me!
+  std::vector<int> cbuf;
+  int hand;
 };
 
 }  // namespace bustub
